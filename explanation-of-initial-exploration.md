@@ -141,3 +141,4 @@ https://download.openmmlab.com/mmpose/body3d/videopose/videopose_h36m_243frames_
 --output-root  vis_results  --device=cpu --online
 ```
 
+## .ipynb file can help you see the skeleton tracking numbers
