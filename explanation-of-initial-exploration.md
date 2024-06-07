@@ -46,6 +46,7 @@ https://mmpose.readthedocs.io/en/latest/demos.html#d-human-whole-body-pose-top-d
 
 
 command
+
 ```python demo/topdown_demo_with_mmdet.py \
     ${MMDET_CONFIG_FILE} ${MMDET_CHECKPOINT_FILE} \
     ${MMPOSE_CONFIG_FILE} ${MMPOSE_CHECKPOINT_FILE} \
@@ -53,6 +54,7 @@ command
     [--output-root ${OUTPUT_DIR}] [--save-predictions] \
     [--show] [--draw-heatmap] [--device ${GPU_ID or CPU}] \
     [--bbox-thr ${BBOX_SCORE_THR}] [--kpt-thr ${KPT_SCORE_THR}] 
+    
     ```
 
 mmpose example (with small modification to use cpu)
